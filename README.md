@@ -72,6 +72,9 @@ Scaling shouldnt be a problem, I tried executing the implementation with 10,000 
 
 Tests are already implemented for every function created and coverage is achieved based on the importance of the function. Effective method is to have static file in local instead of having dynamic file input & test all possible Branches/lines.
 
+**Sample coverage report:**
+
+<img width="1679" alt="Screenshot 2021-08-31 at 11 52 34" src="https://user-images.githubusercontent.com/13304448/131490241-2e7de228-46c4-4039-90a8-6adc49d7ce47.png">
 
 
 ## How to Execute Tests
