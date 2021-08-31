@@ -12,13 +12,13 @@ NPM is used as package manager and names of necessary packages are stored in pac
 
     npm install
 
-Ensure you are in the project home directory before trying the below command
+Ensure you are in the project home directory before trying the above command
 
 note: implementation doesnt require any external library, its the tests that require most of the added packages.
 
 ## Execution
 
-The implemenation can be executed using npm script added to the project and it requires two mandatory arguments `--chom=X` & `--pos=Y` 
+The implementation can be executed using npm script added to the project and it requires two mandatory arguments `--chom=X` & `--pos=Y` 
 
     npm run start -- --chrom=chr1 --pos=10001
 
@@ -62,7 +62,7 @@ When one of the mandatory argument (chrom/pos) is not provided, below error mess
 
 - Works only if both CHROM & POS values are provided. possibility of retrieveing using only POS is not considered.
 
-- REF is chosen as default instead of ALT assuming the problem statement has a mistake, please correct me if I am wrong.
+- REF is chosen as default instead of ALT assuming the input provided doesnt have ALT for any of the entry, please correct me if I am wrong.
 
 ## How would it scale?
 
@@ -87,4 +87,4 @@ Test uses input file from `./test/test_input.vcf` file.
 
 ## Performance optimization of implementation
 
-I tried out various logic in attempt to increase the execution performance and decided to use the existing implemenation as there is no significant difference between the other options.
+I tried out various logics in attempt to increase the execution performance and decided to use the existing implemenation as there is no significant difference between the other options. Please have a look at `src/tryOut.ts` for more.
