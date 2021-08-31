@@ -1,0 +1,13 @@
+##ALT=<ID=NON_REF,Description="Represents any possible alternative allele at this location">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ=255 or with bad mates are filtered)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum DP observed within the GVCF block">
+##source=HaplotypeCaller
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	CL100070381_L1_HUMfbjRAAAC
+chr1	10001	.	T	<NON_REF>	.	.	END=10036	GT:DP:GQ:MIN_DP:PL	0/0:8:0:0:0,0,0
+chr1	10037	.	T	<NON_REF>	.	.	END=10043	GT:DP:GQ:MIN_DP:PL	0/0:14:3:11:0,3,45
+chr1	10044	.	A	<NON_REF>	.	.	END=10044	GT:DP:GQ:MIN_DP:PL	0/0:17:6:17:0,6,90
+chr1	10045	.	A	<NON_REF>	.	.	END=10045	GT:DP:GQ:MIN_DP:PL	0/0:12:0:12:0,0,268
